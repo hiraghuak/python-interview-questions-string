@@ -1,0 +1,52 @@
+# ==================== enter string to revers start
+# str = input("enter string to revers")
+# 1
+# print(str[::-1])
+# 2
+# r = reversed(str)
+# output = ''.join(r)
+# print(output)
+
+# 3
+# output = ''
+# i=len(str)-1
+# while i >= 0:
+#     output=output+str[i]
+#     i=i-1
+# print(output)
+# ==================== enter string to revers end
+
+# ==================== enter string to revers words start
+# str = input("enter word to reverse")
+# r = str.split()
+# print(r)
+# r1 = r[::-1]
+# print(r1)
+# output = ' '.join(r1)
+# print(output)
+# ==================== enter string to revers words end
+
+# ==================== enter string word by word only revers words start
+# str = input("enter string words only revers words " )
+# r = str.split()
+# r1 = []
+# for word in r:
+#     r1.append(word[::-1])
+#     output = ' '.join(r1)
+# print(output)
+# ==================== enter string word by word only revers words end
+
+# ==================== Revers every word second latter start
+# str = input("enter str to revers ervery word second latter " )
+# r = str.split()
+# i =0
+# r1 = []
+# while i < len(r):
+#     if i%2 == 0:
+#         r1.append(r[i])
+#     else:
+#         r1.append(r[i][::-1])
+#     i=i+1
+# output=' '.join(r1)
+# print(output)
+# ==================== Revers every word second latter end
